@@ -1,0 +1,72 @@
+
+body{
+        background-image:url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        
+      }
+
+
+h1,a{
+  color:white;
+}
+
+h1::first-letter{
+  font-size:2em;
+  text-align:center;
+}
+
+*{
+  color:white;
+}
+
+
+main{
+  font-family:serif;
+  text-align:center;
+  width:75%;
+  margin:auto;
+  
+  /*line-height:35px;*/
+}
+
+nav a:hover{
+  background-color:lightblue;
+  color:orange;
+}
+
+nav a:active{
+  background-color:green;
+  color:yellow;
+}
+
+nav a{
+  text-decoration: none;
+  margin:20px;
+}
+
+a[target="_blank"]{
+  color:blue;
+  background-color:white;
+
+
+}
+
+img{
+  width:40%;
+  margin:30px ;
+}
+
+img[alt]{
+  border:2px white dotted;
+}
+
+#space_videos{
+  color:beige;
+  background-color:brown;
+
+}
+
+[href="#space_videos"]{
+  color:blue;
+}
